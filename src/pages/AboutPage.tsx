@@ -1,0 +1,5 @@
+import { Link } from 'react-router-dom'
+
+export default function AboutPage() {
+  return <main className="marketing-content"><p className="page-eyebrow">ABOUT VELORAH</p><h1>Learning should move<br /><em>at your pace.</em></h1><p className="marketing-lead">Velorah is a student-focused learning platform built around understanding, practice, and steady progress—not simply finishing videos or rushing through topics.</p><div className="about-grid"><article><span>01</span><h2>Start with foundations</h2><p>Build a solid base in Data Structures and Algorithms before choosing Python or Java.</p></article><article><span>02</span><h2>Learn by doing</h2><p>Use lessons, practice problems, assessments, and guided hints to develop real problem-solving skills.</p></article><article><span>03</span><h2>Improve continuously</h2><p>Our project aims to use mistakes and progress to shape more useful revision and learning recommendations.</p></article></div><Link className="content-cta" to="/learn/dashboard">Explore the learning space <span>→</span></Link></main>
+}
